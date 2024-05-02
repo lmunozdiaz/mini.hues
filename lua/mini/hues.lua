@@ -858,7 +858,7 @@ H.apply_colorscheme = function(config)
     hi('@punctuation', { link='Delimiter' })
 
     hi('@constant',          { link='Constant' })
-    hi('@constant.builtin',  { link='Constant' })
+    hi('@constant.builtin',  { fg=p.azure })
     hi('@constant.macro',    { link='Macro' })
     hi('@define',            { link='Define' })
     hi('@macro',             { link='Macro' })
