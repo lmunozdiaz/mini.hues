@@ -939,7 +939,7 @@ H.apply_colorscheme = function(config)
 
     -- @variable
     -- @variable.builtin
-    hi('@variable.parameter', { link='@parameter' })
+    -- hi('@variable.parameter', { link='@parameter' })
     hi('@variable.member',    { link='@field' })
 
     -- @constant
