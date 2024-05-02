@@ -875,7 +875,7 @@ H.apply_colorscheme = function(config)
     hi('@function.builtin', { link='Function' })
     hi('@function.call',    { link='Function' })
     hi('@function.macro',   { link='Macro' })
-    -- hi('@parameter',        { fg=p.blue, bg=nil })
+    hi('@parameter',        { fg=p.fg, bg=nil })
     hi('@method',           { link='Function' })
     hi('@method.call',      { link='Function' })
     hi('@field',            { link='Identifier' })
@@ -939,7 +939,7 @@ H.apply_colorscheme = function(config)
 
     -- @variable
     -- @variable.builtin
-    -- hi('@variable.parameter', { link='@parameter' })
+    hi('@variable.parameter', { link='@parameter' })
     hi('@variable.member',    { link='@field' })
 
     -- @constant
