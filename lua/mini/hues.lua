@@ -990,7 +990,7 @@ H.apply_colorscheme = function(config)
     hi('@keyword.operator',  { link='@keyword' })
     hi('@keyword.import',    { link='@constant', bg=nil, bold=true })
     hi('@keyword.storage',   { fg=p.fg,   bg=nil, bold=true })
-    hi('@keyword.repeat',    { link='@conditional' })
+    hi('@keyword.repeat',    { link='Conditional' })
     -- @keyword.return
     hi('@keyword.debug',     { fg=p.cyan, bg=nil, bold=true })
     hi('@keyword.exception', { link='@keyword' })
