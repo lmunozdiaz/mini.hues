@@ -927,7 +927,6 @@ H.apply_colorscheme = function(config)
     hi('@lsp.type.variable',      { link='@variable' })
 
     -- hi('@lsp.mod.defaultLibrary', { link='Special' })
-    hi('@lsp.typemod.variable.defaultLibrary', { link='Special' })
     hi('@lsp.mod.deprecated',     { fg=p.red, bg=nil })
   end
 
