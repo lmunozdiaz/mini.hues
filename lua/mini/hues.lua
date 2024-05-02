@@ -891,7 +891,7 @@ H.apply_colorscheme = function(config)
     hi('@exception',      { link='Exception' })
 
     hi('@variable',         { link='Identifier', bg=nil })
-    hi('@variable.builtin', { link='@variable' })
+    hi('@variable.builtin', { link='Special' })
     hi('@type',             { link='Type' })
     hi('@type.builtin',     { link='@keyword' })
     hi('@type.definition',  { link='Typedef' })
@@ -927,6 +927,7 @@ H.apply_colorscheme = function(config)
     hi('@lsp.type.variable',      { link='@variable' })
 
     -- hi('@lsp.mod.defaultLibrary', { link='Special' })
+    hi('@lsp.typemod.variable.defaultLibrary', { link='Special' })
     hi('@lsp.mod.deprecated',     { fg=p.red, bg=nil })
   end
 
