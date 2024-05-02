@@ -1084,7 +1084,7 @@ H.apply_colorscheme = function(config)
 
     hi('MiniFilesBorder',         { link='FloatBorder' })
     hi('MiniFilesBorderModified', { link='DiagnosticFloatingWarn' })
-    hi('MiniFilesCursorLine',     { fg=p.cyan, bg=nil })
+    hi('MiniFilesCursorLine',     { fg=p.cyan, bg=bg_edge2 })
     hi('MiniFilesDirectory',      { link='Directory'   })
     hi('MiniFilesFile',           { fg=p.fg, bg=nil })
     hi('MiniFilesNormal',         { link='NormalFloat' })
