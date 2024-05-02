@@ -994,7 +994,7 @@ H.apply_colorscheme = function(config)
     hi('@keyword.repeat',    { link='@conditional' })
     -- @keyword.return
     hi('@keyword.debug',     { fg=p.cyan, bg=nil, bold=true })
-    hi('@keyword.exception', { link='@keyword' })
+    hi('@keyword.exception', { link='@conditional' })
 
     hi('@keyword.conditional',         { link='@conditional' })
     hi('@keyword.conditional.ternary', { link='@conditional' })
