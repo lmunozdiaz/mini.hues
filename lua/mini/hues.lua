@@ -1087,7 +1087,7 @@ H.apply_colorscheme = function(config)
     hi('MiniFilesCursorLine',     { link='CursorLine' })
     hi('MiniFilesDirectory',      { link='Directory'   })
     hi('MiniFilesFile',           { fg=p.fg, bg=nil })
-    hi('MiniFilesNormal',         { link='NormalFloat' })
+    hi('MiniFilesNormal',         { link='Normal' })
     hi('MiniFilesTitle',          { link='FloatTitle'  })
     hi('MiniFilesTitleFocused',   { fg=p.fg, bg=p.bg_edge, bold=true })
 
