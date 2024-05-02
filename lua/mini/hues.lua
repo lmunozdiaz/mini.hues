@@ -753,7 +753,7 @@ H.apply_colorscheme = function(config)
   hi('Structure',      { link='Type' })
   hi('Tag',            { link='Special' })
   hi('Todo',           { fg=p.accent,  bg=p.accent_bg, bold=true })
-  hi('Type',           { fg=p.yellow,      bg=nil })
+  hi('Type',           { fg=p.fg,      bg=nil })
   hi('Typedef',        { link='Type' })
 
   -- Other community standard
