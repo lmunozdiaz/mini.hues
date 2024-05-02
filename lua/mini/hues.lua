@@ -880,7 +880,7 @@ H.apply_colorscheme = function(config)
     hi('@method.call',      { link='Function' })
     hi('@field',            { link='Identifier' })
     hi('@property',         { link='Identifier' })
-    hi('@constructor',      { link='Type' })
+    hi('@constructor',      { link='Special' })
 
     hi('@conditional',    { link='Conditional' })
     hi('@repeat',         { link='Repeat' })
