@@ -1305,12 +1305,12 @@ H.apply_colorscheme = function(config)
   end
 
   if has_integration('hrsh7th/nvim-cmp') then
-    hi('CmpItemAbbr',           { fg=p.fg, bg=nil })
+    hi('CmpItemAbbr',           { fg=p.fg, bg=p.bg_edge })
     hi('CmpItemAbbrDeprecated', { link='Comment' })
-    hi('CmpItemAbbrMatch',      { fg=nil,  bg=nil, bold=true })
-    hi('CmpItemAbbrMatchFuzzy', { fg=nil,  bg=nil, bold=true })
-    hi('CmpItemKind',           { fg=p.fg, bg=nil })
-    hi('CmpItemMenu',           { fg=p.fg, bg=nil })
+    hi('CmpItemAbbrMatch',      { fg=nil,  bg=p.bg_edge, bold=true })
+    hi('CmpItemAbbrMatchFuzzy', { fg=nil,  bg=p.bg_edge, bold=true })
+    hi('CmpItemKind',           { fg=p.fg, bg=p.bg_edge })
+    hi('CmpItemMenu',           { fg=p.fg, bg=p.bg_edge })
 
     hi('CmpItemKindClass',         { link='Type' })
     hi('CmpItemKindColor',         { link='Special' })
