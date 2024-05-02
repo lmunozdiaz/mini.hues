@@ -1097,7 +1097,7 @@ H.apply_colorscheme = function(config)
     hi('MiniHipatternsTodo',  { fg=p.bg, bg=p.blue,   bold=true})
 
     hi('MiniIndentscopeSymbol',    { link='LineNr', bg=nil })
-    hi('MiniIndentscopeSymbolOff', { fg=p.red,    bg=nil })
+    hi('MiniIndentscopeSymbolOff', { link='MiniIndentscopeSymbol' })
 
     hi('MiniJump', { fg=nil, bg=nil, sp=p.accent, undercurl=true })
 
